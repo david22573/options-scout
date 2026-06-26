@@ -6,7 +6,7 @@
 
 `options-scout` scans a liquid watchlist and recommends one of:
 
-```
+```text
 CALL_DEBIT_SPREAD
 PUT_DEBIT_SPREAD
 BEAR_CALL_CREDIT_SPREAD
@@ -59,7 +59,7 @@ GOWORK=off go build -buildvcs=false -o options-scout ./cmd/options-scout
 
 Thresholds:
 - **85–100**: A setup → enter
-- **70–84**: B setup → enter  
+- **70–84**: B setup → enter
 - **60–69**: Watch only
 - **0–59**: WAIT
 
@@ -94,7 +94,7 @@ After the spread math and scoring engine are validated, live data providers (Pol
 
 ## Project Structure
 
-```
+```text
 options-scout/
   cmd/options-scout/main.go        — CLI entry point (cobra)
   internal/
@@ -121,7 +121,7 @@ options-scout/
 
 ## Risk Rules (defaults)
 
-```
+```text
 Max risk per trade:  $150
 Max risk per day:    $300
 Max open risk:       $500

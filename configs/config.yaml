@@ -1,0 +1,36 @@
+# Default Options Scout Configuration
+# Edit this file to customize behavior.
+
+account:
+  max_risk_per_trade: 150.00      # USD
+  max_risk_per_day: 300.00        # USD
+  max_open_option_risk: 500.00    # USD
+  max_same_direction: 2           # concurrent trades same direction
+
+scoring:
+  min_score_trade: 70             # 70+ → trade (B setup)
+  min_score_watch: 60             # 60-69 → watch only
+  # 0-59 → WAIT
+
+filters:
+  max_bid_ask_spread_pct: 0.15    # 15% of mid — reject if wider
+  min_open_interest: 100
+  min_volume: 10
+  max_dte_debit: 7
+  min_dte_debit: 1
+  max_dte_credit: 45
+  min_dte_credit: 14
+
+exit:
+  take_profit_min_pct: 0.30       # +30%
+  take_profit_max_pct: 0.70       # +70%
+  stop_loss_min_pct: 0.25         # -25%
+  stop_loss_max_pct: 0.40         # -40%
+
+data:
+  provider: "manual"              # manual | alpaca | polygon
+  polygon_api_key: ""             # set via POLYGON_API_KEY env or .env
+  alpaca_api_key: ""              # set via ALPACA_API_KEY_ID env
+  alpaca_api_secret: ""           # set via ALPACA_API_SECRET_KEY env
+  alpaca_feed: "iex"              # iex | sip
+  options_feed: "opra"            # opra

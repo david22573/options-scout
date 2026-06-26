@@ -1,0 +1,114 @@
+{
+  "symbol": "QQQ",
+  "underlying_last": 484.50,
+  "contracts": [
+    {
+      "expiration": "2026-07-02",
+      "strike": 480.0,
+      "option_type": "call",
+      "bid": 6.80,
+      "ask": 7.10,
+      "volume": 312,
+      "open_interest": 2450,
+      "iv": 0.22,
+      "delta": 0.55,
+      "theta": -0.18
+    },
+    {
+      "expiration": "2026-07-02",
+      "strike": 485.0,
+      "option_type": "call",
+      "bid": 3.90,
+      "ask": 4.10,
+      "volume": 528,
+      "open_interest": 5100,
+      "iv": 0.20,
+      "delta": 0.42,
+      "theta": -0.20
+    },
+    {
+      "expiration": "2026-07-02",
+      "strike": 490.0,
+      "option_type": "call",
+      "bid": 1.85,
+      "ask": 2.00,
+      "volume": 620,
+      "open_interest": 7300,
+      "iv": 0.19,
+      "delta": 0.28,
+      "theta": -0.21
+    },
+    {
+      "expiration": "2026-07-02",
+      "strike": 495.0,
+      "option_type": "call",
+      "bid": 0.62,
+      "ask": 0.70,
+      "volume": 415,
+      "open_interest": 3800,
+      "iv": 0.21,
+      "delta": 0.14,
+      "theta": -0.15
+    },
+    {
+      "expiration": "2026-07-02",
+      "strike": 480.0,
+      "option_type": "put",
+      "bid": 3.10,
+      "ask": 3.30,
+      "volume": 290,
+      "open_interest": 3100,
+      "iv": 0.23,
+      "delta": -0.44,
+      "theta": -0.19
+    },
+    {
+      "expiration": "2026-07-02",
+      "strike": 484.0,
+      "option_type": "put",
+      "bid": 4.50,
+      "ask": 4.70,
+      "volume": 480,
+      "open_interest": 4200,
+      "iv": 0.22,
+      "delta": -0.50,
+      "theta": -0.21
+    },
+    {
+      "expiration": "2026-07-02",
+      "strike": 479.0,
+      "option_type": "put",
+      "bid": 2.80,
+      "ask": 3.00,
+      "volume": 350,
+      "open_interest": 2800,
+      "iv": 0.24,
+      "delta": -0.38,
+      "theta": -0.18
+    },
+    {
+      "expiration": "2026-07-02",
+      "strike": 475.0,
+      "option_type": "put",
+      "bid": 1.40,
+      "ask": 1.55,
+      "volume": 510,
+      "open_interest": 5500,
+      "iv": 0.25,
+      "delta": -0.24,
+      "theta": -0.16
+    },
+    {
+      "expiration": "2026-07-02",
+      "strike": 470.0,
+      "option_type": "put",
+      "bid": 0.55,
+      "ask": 0.65,
+      "volume": 380,
+      "open_interest": 4100,
+      "iv": 0.27,
+      "delta": -0.12,
+      "theta": -0.11
+    }
+  ]
+}

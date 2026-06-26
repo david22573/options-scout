@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.agents/
+.codex/
+.cache/
+options-scout
+cmd/options-scout/runs/
+runs/archive/
+runs/journal/
+runs/packets/
+runs/reports/

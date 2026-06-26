@@ -1,0 +1,53 @@
+{
+  "symbol": "QQQ",
+  "timestamp": "2026-06-25T09:45:00Z",
+  "account_max_risk": 50,
+  "trade_window": "DTE_1_3",
+  "bias": "BULLISH",
+  "goal": "DAY_TRADE",
+  "underlying": {
+    "current_price": 499.2,
+    "premarket_direction": "UP",
+    "day_high": 500.1,
+    "day_low": 497.8,
+    "vwap": 498.7,
+    "above_vwap": true,
+    "opening_range_high": 499.5,
+    "opening_range_low": 498.3,
+    "major_support": 497.5,
+    "major_resistance": 500,
+    "relative_volume": 1.8,
+    "spy_direction": "UP",
+    "qqq_direction": "UP",
+    "notes": "Clean trend after opening range break."
+  },
+  "setup": {
+    "setup_type": "BREAKOUT",
+    "trigger_level": 499.6,
+    "invalidation_level": 498.5,
+    "confirmation_notes": "Held above VWAP and reclaimed opening range high.",
+    "earnings_soon": false,
+    "major_news": ""
+  },
+  "option_candidates": [
+    {
+      "strategy_hint": "CALL_DEBIT_SPREAD",
+      "expiration": "2026-06-26",
+      "long_leg_type": "CALL",
+      "long_leg_strike": 500,
+      "long_leg_bid": 2.45,
+      "long_leg_ask": 2.55,
+      "long_leg_volume": 250,
+      "long_leg_open_interest": 1500,
+      "short_leg_type": "CALL",
+      "short_leg_strike": 501,
+      "short_leg_bid": 2.01,
+      "short_leg_ask": 2.09,
+      "short_leg_volume": 220,
+      "short_leg_open_interest": 1300,
+      "estimated_debit": 0.47,
+      "estimated_credit": 0,
+      "notes": "Tight market with liquid strikes."
+    }
+  ]
+}
